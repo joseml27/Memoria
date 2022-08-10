@@ -1,0 +1,28 @@
+#root {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fruta {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+    font-size: 40px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activar {
+    background-color: rosybrown;
+    content-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: .3s;
+}
